@@ -1,0 +1,129 @@
+body{
+    background: brown;
+}
+
+.modal-dialog{
+    height: 550px !important; 
+    background: cyan !important;
+    border-radius: 40px;
+}
+.modal-dialog h5{
+    font-size: 14px;
+    text-align: center;
+    padding-top: 20px;
+    color: rgb(70, 126, 126);
+}
+
+.modal-content{
+    width: 100% !important;
+    margin-top: 40px !important;
+    border: none;
+    border-radius: 0 30px 0 0;
+}
+.modal-content .header{
+    background: #fff;
+    height: 150px;
+    width: 100%;
+    margin-top: 20px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.modal-content .header h3{
+    color: black;
+    text-align: left;
+    font-size: 16px;
+    padding: 5px 0px 15px 20px;
+}
+#input{
+    display: none;
+}
+.modal-content .header input{
+    border: none;
+    border-bottom: 1px solid rgb(156, 165, 165);
+    width: 70%;
+    margin-right: 200px;
+    margin-bottom: 30px; 
+    font-size: 14px;
+}
+.modal-content .header input:focus{
+    outline:none;
+}
+
+#add i{
+    float: right;
+    position: absolute;
+    top: 18%;
+    right: 10%;
+    color: rgb(121, 136, 104);
+    font-size: 25px;
+}
+#save{
+    display: none;
+}
+#save i{
+    float: right;
+    position: absolute;
+    top: 18%;
+    right: 10%;
+    color: rgb(121, 136, 104);
+    font-size: 25px;
+}
+.modal-content .body{
+    background: violet;
+    width: 100%;
+    height: 460px;
+    border-radius: 0 30px 40px 40px;   
+    overflow: auto;
+}
+.body::-webkit-scrollbar{
+    width: 5px;
+}
+#removeAll {
+    position: absolute ;
+    top: 260%;
+    right: 5%;
+    font-size: 40px;
+    color: #fff;
+}
+
+.modal-body{
+    border: none !important;
+}
+.modal-footer{
+    border: none;
+}
+#list {
+    display: flex;
+}
+
+#list i{
+    margin-top: 30px;
+    margin-left: 40px;
+    font-size: 25px;
+    color: #fff;
+}
+#items li{
+    list-style: none;
+}
+#listDiv{
+    margin-top: 10px;
+    width: 60%;
+    padding: 8px;
+    background-color: #fff;
+    border-radius: 10px 0px 10px 10px;
+    border-left: 3px solid yellowgreen ;
+}
+
+#updateInput{
+    display: none;
+    width: 60%;
+}
+#listDiv i{
+    color: gray;
+    font-size: 18px;
+    margin: 5px;
+    display: none;
+    float: right;
+}
